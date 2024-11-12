@@ -1,3 +1,16 @@
+@import '../../public/css/awcodes/tiptap-editor/tiptap.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+@layer utilities {
+    article.doc-content h1 {
+        @apply text-3xl font-bold tracking-tight text-slate-900;
+    }
+    article.doc-content p {
+        @apply mt-2 text-xl text-slate-600;
+    }
+    article.doc-content {
+        @apply prose prose-slate max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-lead:text-slate-500 prose-a:font-semibold prose-a:underline prose-pre:bg-slate-900;
+    }
+}
