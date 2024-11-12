@@ -11,7 +11,7 @@ services:
       - SSL_MODE=mixed
       - PHP_POOL_NAME="my-app_php"
     labels:
-      caddy: filaletter.solutionforest.com
+      caddy: filaletter.solutionforest.net
       caddy.reverse_proxy: "{{upstreams 8080}}"
     networks:
       - caddy
