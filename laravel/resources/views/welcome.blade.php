@@ -62,10 +62,9 @@
                             with the Filament Admin Panel. Enjoy flexible and user-friendly email marketing directly
                             within your admin panel.</p>
                         <div class="mt-10 flex items-center gap-x-6">
-                            <!-- <a href="{{ route('docs', ['path' => '1-getting-started', 'title' => '1-introduction']) }}"
-                                class="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400">Documents</a> -->
-                            <a href="#" class="bg-lake-green rounded-md px-3.5 py-2.5 text-sm shadow-sm font-semibold text-white  ">Documents</a>
-                                <a href="#"
+                            <a href="{{ route('docs', ['path' => '1-getting-started', 'title' => '1-introduction']) }}"
+                                class="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400">Documents</a>
+                            <a href="#"
                                 class="text-sm font-semibold leading-6 text-white">View on Filament Plugin <span
                                     aria-hidden="true">→</span></a>
                         </div>
@@ -183,7 +182,7 @@
             <div class="mt-32 sm:mt-56">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl sm:text-center">
-                        <h2 class="text-base font-semibold leading-7 text-lake-green">Everything you need</h2>
+                        <h2 class="text-base font-semibold leading-7 text-primary-400">Everything you need</h2>
                         <p
                             class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
                             Manage Newsletter with Ease.</p>
@@ -417,7 +416,7 @@
                   <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                 </div>
                 <div class="mx-auto max-w-4xl text-center">
-                  <h2 class="text-base/7 font-semibold text-lake-green">Pricing</h2>
+                  <h2 class="text-base/7 font-semibold text-primary-400">Pricing</h2>
                   <div type="button" class="bg-white font-medium inline-flex items-center mt-4 px-2 py-1 rounded-md text-orange-700 text-sm whitespace-nowrap">
                     
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -493,7 +492,7 @@
                   </div>
                   <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
                     <div class="flex items-center justify-between gap-x-4">
-                        <h3 id="tier-enterprise" class="text-base/7 font-semibold text-lake-green">Unlimited domains</h3>
+                        <h3 id="tier-enterprise" class="text-base/7 font-semibold text-primary-400">Unlimited domains</h3>
                         <p class="rounded-full bg-primary-500 px-2.5 py-1 text-xs/5 font-semibold text-white">Most popular</p>
                     </div>
                    \
