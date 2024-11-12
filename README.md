@@ -1,4 +1,4 @@
-The source code for the [Filaletter](https://filaletter.solutionforest.net) website.
+The source code for the [Filaletter](https://filaletter.solutionforest.com) website.
 
 ## Docs
 
@@ -8,8 +8,8 @@ The source code for the [Filaletter](https://filaletter.solutionforest.net) webs
 
 Modern open-source self-hosted email marketing.
 
-- [Website](https://filaletter.solutionforest.net)
-- [Documentation](https://filaletter.solutionforest.net/documentation/1-getting-started/1-introduction)
+- [Website](https://filaletter.solutionforest.com)
+- [Documentation](https://filaletter.solutionforest.com/documentation/1-getting-started/1-introduction)
 
 ## Introduction
 
