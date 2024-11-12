@@ -3,7 +3,7 @@ The source code for the [Filaletter](https://filaletter.solutionforest.net) webs
 ## Docs
 
 > [!NOTE]
-> Please submit pull requests for documentation changes in this repository. The relevant documentation files can be found in the `/docs` directory.
+> Please submit pull requests for documentation changes in this repository. The relevant documentation files can be found in the `filaletter/public/docs` directory.
 
 
 Modern open-source self-hosted email marketing.
