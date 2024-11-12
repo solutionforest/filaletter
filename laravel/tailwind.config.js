@@ -11,9 +11,32 @@ export default {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            // fontFamily: {
+            //     sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            // },
+            colors: {
+                'lake-green': '#20B2AA', 
+              },
+              keyframes: {
+                ping: {
+                    '75%, 100%': {
+                        transform: 'scale(1.5)',
+                        opacity: 0,
+                    },
+                    '0%': {
+                        transform: 'scale(0.95)',
+                        opacity: 0
+                    },
+                    '20%': {
+                        transform: 'scale(1)',
+                        opacity: 0.3
+                    }
+
+                },
             },
+        },
+        animation: {
+            ping: 'ping 1s ease infinite',
         },
     },
     plugins: [],
