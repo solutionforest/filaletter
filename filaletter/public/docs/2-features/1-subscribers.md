@@ -27,7 +27,7 @@ To manually unsubscribe a subscriber, go to the subscriber edit page, uncheck Su
 
 ### Unsubscribe Links
 
-SendPortal can automatically insert unsubscribe links into your templates and campaigns. Refer to the templates section for more details.
+Filaletter can automatically insert unsubscribe links into your templates and campaigns. Refer to the templates section for more details.
 
 When a user clicks the unsubscribe link, they will be directed to a web page to confirm their unsubscription. Upon confirmation, they will see a message confirming their unsubscription and an option to resubscribe.
 

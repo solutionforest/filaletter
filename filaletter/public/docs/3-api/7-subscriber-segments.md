@@ -20,7 +20,7 @@
 **Sample Request:**
 ```
 GET /api/v1/subscribers/1/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -64,7 +64,7 @@ This endpoint is idempotent, meaning that tags already assigned to the subscribe
 **Sample Request:**
 ```
 POST /api/v1/subscribers/1/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -119,7 +119,7 @@ If you want to assign additional tags to the subscriber without removing existin
 **Sample Request:**
 ```
 PUT /api/v1/subscribers/1/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -172,7 +172,7 @@ Content-Type: application/json
 **Sample Request:**
 ```
 DELETE /api/v1/subscribers/1/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json

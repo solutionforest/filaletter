@@ -47,6 +47,6 @@ The URL placeholders (`{{unsubscribe_url}}` and `{{webview_url}}`) generate the 
 
 Although external stylesheets and embedded styles (i.e., including the styles in the `<head>` of an HTML page) work well for web pages, many email clients will ignore or strip out these elements.
 
-SendPortal automatically inlines all of your CSS styles when the emails are dispatched. You can therefore continue to use the convenience of CSS and/or embedded styles in your templates, but still ensure that your emails display correctly for your subscribers.
+Filaletter automatically inlines all of your CSS styles when the emails are dispatched. You can therefore continue to use the convenience of CSS and/or embedded styles in your templates, but still ensure that your emails display correctly for your subscribers.
 
 If your template contains CSS and inline styles, the inline styles will be retained, and the CSS and/or embedded styles will be added to the existing inline styles.

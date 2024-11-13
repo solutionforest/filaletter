@@ -30,7 +30,7 @@ GET /api/v1/tags
 
 ```
 GET /api/v1/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -48,8 +48,8 @@ Accept: application/json
                 }
         ],
         "links": {
-                "first": "https://sendportal.local/api/v1/tags?page=1",
-                "last": "https://sendportal.local/api/v1/tags?page=1",
+                "first": "https://filaletter.test/api/v1/tags?page=1",
+                "last": "https://filaletter.test/api/v1/tags?page=1",
                 "prev": null,
                 "next": null
         },
@@ -57,7 +57,7 @@ Accept: application/json
                 "current_page": 1,
                 "from": 1,
                 "last_page": 1,
-                "path": "https://sendportal.local/api/v1/tags",
+                "path": "https://filaletter.test/api/v1/tags",
                 "per_page": 25,
                 "to": 1,
                 "total": 1
@@ -95,7 +95,7 @@ GET /api/v1/tags/{tagId}
 
 ```
 GET /api/v1/tags/1 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -153,7 +153,7 @@ POST /api/v1/tags
 
 ```
 POST /api/tags HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -221,7 +221,7 @@ PUT /api/v1/tags/{tagId}
 
 ```
 PUT /api/v1/tags/2 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -264,7 +264,7 @@ DELETE /api/v1/tags/{tagId}
 
 ```
 DELETE /api/v1/tags/2 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```

@@ -8,7 +8,7 @@ Postmark will automatically create a server for you, called **My First Server**.
 
 ![Postmark API Tokens](https://sendportal.io/img/docs/providers/postmark/postmark-1.png)
 
-Copy the string from **Server API tokens** and create a provider within SendPortal.
+Copy the string from **Server API tokens** and create a provider within Filaletter.
 
 ![Create Provider](https://sendportal.io/img/docs/providers/postmark/postmark-2.png)
 
@@ -48,4 +48,4 @@ That's it! You're now set up to send and track emails using Postmark.
 
 ## Message Streams
 
-SendPortal enables the use of Postmark message streams. You can supply this in the **Message Stream** field when adding Postmark as an Email Service. If you do not wish to use Message Streams you can leave this field blank.
+Filaletter enables the use of Postmark message streams. You can supply this in the **Message Stream** field when adding Postmark as an Email Service. If you do not wish to use Message Streams you can leave this field blank.

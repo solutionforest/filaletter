@@ -70,7 +70,7 @@ Selecting tags for the user is optional, so we're not going to enter any at this
 
 We're now ready to configure the provider with SendPortal.
 
-![SendPortal Configuration](https://sendportal.io/img/docs/providers/aws/aws-11.png)
+![Filaletter Configuration](../../images/providers/aws/aws-setting.png)
 
 Congratulations! You can now send e-mails using Amazon SES.
 
