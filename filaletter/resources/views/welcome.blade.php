@@ -10,6 +10,7 @@
 	<meta name="keywords" content="filament, laravel, newsletter, emails, email newsletters, amazon ses, newsletter amazon ses, blast emails, blast emails amazon ses, send emails amazon ses, amazon simple email service, email reports, email subscribers"/>
 		
     <!-- Fonts -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
