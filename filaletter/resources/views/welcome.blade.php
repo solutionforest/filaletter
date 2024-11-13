@@ -489,7 +489,7 @@
                         2 activations (local and production).
                       </li>
                     </ul>
-                    <a href="#" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get started today</a>
+                    <a href="https://checkout.anystack.sh/filasend" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get started today</a>
                   </div>
                   <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
                     <div class="flex items-center justify-between gap-x-4">
@@ -540,7 +540,7 @@
                         1 year of free updates, no subscription
                       </li>
                     </ul>
-                    <a href="#" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get started today</a>
+                    <a href="https://checkout.anystack.sh/filasend" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get started today</a>
                   </div>
                 </div>
               </div>
