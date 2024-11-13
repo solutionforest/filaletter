@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Filament Newsletter - Send Newsletters 100x cheaper via Amazon SES</title>
-    <meta name="description" content="A self hosted newsletter application in Filament that lets you send trackable emails via Amazon Simple Email Service (SES) at 100x cheaper than other hosted solutions.">
+    <title>Filaletter - Send Newsletters Cost-Effectively via Amazon SES</title>
+    <meta name="description" content="A self hosted newsletter application in Filament that lets you send trackable emails via Amazon Simple Email Service (SES) at cost effectively than other hosted solutions.">
 	<meta name="keywords" content="filament, laravel, newsletter, emails, email newsletters, amazon ses, newsletter amazon ses, blast emails, blast emails amazon ses, send emails amazon ses, amazon simple email service, email reports, email subscribers"/>
 		
     <!-- Fonts -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -56,7 +57,7 @@
                     <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:pt-8">
                         <x-filasend class="w-12 h-12"/>
                         <h1 class="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                            Filament Newsletter</h1>
+                            Filaletter</h1>
                         <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Effortlessly manage
                             your newsletters with our Filament Newsletter package, designed for seamless integration
                             with the Filament Admin Panel. Enjoy flexible and user-friendly email marketing directly
@@ -216,7 +217,7 @@
                                         clip-rule="evenodd" />
                                 </svg>
 
-                                Dasboard charts.
+                                Dashboard charts.
                             </dt>
                             <dd class="inline"></dd>
                             Visualize your campaign performance with interactive charts and graphs.
@@ -344,7 +345,7 @@
                                         d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
                                 </svg>
 
-                                Editor Supports.
+                                Supports Multiple Editors.
                             </dt>
                             <dd class="inline"></dd>
                             Use the editor of your choice to create and edit your email templates.
@@ -456,7 +457,7 @@
                 <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-400 sm:text-xl/8">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
                 <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                   <div class="rounded-3xl rounded-t-3xl bg-white p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
-                    <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single domain</h3>
+                    <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single Website License</h3>
                     <p class="mt-4 flex items-baseline gap-x-2">
                       <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$99</div>
                       <span class="text-5xl font-semibold tracking-tight text-gray-900">$69</span>
@@ -492,7 +493,7 @@
                   </div>
                   <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
                     <div class="flex items-center justify-between gap-x-4">
-                        <h3 id="tier-enterprise" class="text-base/7 font-semibold text-primary-400">Unlimited domains</h3>
+                        <h3 id="tier-enterprise" class="text-base/7 font-semibold text-primary-400">Unlimited Website License</h3>
                         <p class="rounded-full bg-primary-500 px-2.5 py-1 text-xs/5 font-semibold text-white">Most popular</p>
                     </div>
                    \
@@ -530,7 +531,7 @@
                         <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                           <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                         </svg>
-                        Package and API, ready to go
+                        Ready-to-Use Package with API Access
                       </li>
                       <li class="flex gap-x-3">
                         <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -553,7 +554,7 @@
                       <div x-data="{ open: false }" class="pt-6">
                           <dt>
                             <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-0" @click="open = !open" aria-expanded="true" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Is the fee just once?</span>
+                              <span class="text-base/7 font-semibold">Is this a one-time purchase?</span>
                               <span class="ml-6 flex h-7 items-center">
                                 <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
@@ -594,7 +595,7 @@
                       <div x-data="{ open: false }" class="pt-6">
                           <dt>
                             <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-1" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Can we buy a single copy and run it in multiple places?</span>
+                              <span class="text-base/7 font-semibold">Can I use a single license on multiple websites?</span>
                               <span class="ml-6 flex h-7 items-center">
                                 <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
@@ -612,7 +613,7 @@
                       <div x-data="{ open: false }" class="pt-6">
                           <dt>
                             <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-2" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Can we white label or resell License?</span>
+                              <span class="text-base/7 font-semibold">Can I white-label or resell the license?</span>
                               <span class="ml-6 flex h-7 items-center">
                                 <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
@@ -716,14 +717,12 @@
                 <div class="mx-auto max-w-2xl text-center">
                     <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Enhance your
                         productivity. Start using our app today.</h2>
-                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Obtain a license today and benefit from our all-inclusive newsletter management package.
-                        Simplify
-                        your email marketing efforts with ease and efficiency.
+                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Simplify your email marketing and boost productivity with our all-inclusive newsletter management package. Obtain a license today!
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a href="#"
                             class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get
-                            stared</a>
+                            Started</a>
                         {{-- <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span
                                 aria-hidden="true">→</span></a> --}}
                     </div>

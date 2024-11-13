@@ -6,7 +6,7 @@ The source code for the [Filaletter](https://filaletter.solutionforest.net) webs
 > Please submit pull requests for documentation changes in this repository. The relevant documentation files can be found in the `filaletter/public/docs` directory.
 
 
-Modern open-source self-hosted email marketing.
+Modern self-hosted email marketing.
 
 - [Website](https://filaletter.solutionforest.net)
 - [Documentation](https://filaletter.solutionforest.net/documentation/1-getting-started/1-introduction)
