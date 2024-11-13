@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Filament Newsletter - Send Newsletters Cost-Effectively via Amazon SES</title>
+    <title>Filaletter - Send Newsletters Cost-Effectively via Amazon SES</title>
     <meta name="description" content="A self hosted newsletter application in Filament that lets you send trackable emails via Amazon Simple Email Service (SES) at cost effectively than other hosted solutions.">
 	<meta name="keywords" content="filament, laravel, newsletter, emails, email newsletters, amazon ses, newsletter amazon ses, blast emails, blast emails amazon ses, send emails amazon ses, amazon simple email service, email reports, email subscribers"/>
 		
@@ -57,7 +57,7 @@
                     <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:pt-8">
                         <x-filasend class="w-12 h-12"/>
                         <h1 class="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                            Filament Newsletter</h1>
+                            Filaletter</h1>
                         <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Effortlessly manage
                             your newsletters with our Filament Newsletter package, designed for seamless integration
                             with the Filament Admin Panel. Enjoy flexible and user-friendly email marketing directly
