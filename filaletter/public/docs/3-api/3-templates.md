@@ -19,7 +19,7 @@ Retrieve a paginated list of all templates.
 ### Sample Request
 ```
 GET /api/v1/templates HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -37,8 +37,8 @@ Accept: application/json
                 }
         ],
         "links": {
-                "first": "http://sendportal.test/api/v1/templates?page=1",
-                "last": "http://sendportal.test/api/v1/templates?page=1",
+                "first": "http://filaletter.test/api/v1/templates?page=1",
+                "last": "http://filaletter.test/api/v1/templates?page=1",
                 "prev": null,
                 "next": null
         },
@@ -46,7 +46,7 @@ Accept: application/json
                 "current_page": 1,
                 "from": 1,
                 "last_page": 1,
-                "path": "http://sendportal.test/api/v1/templates",
+                "path": "http://filaletter.test/api/v1/templates",
                 "per_page": 25,
                 "to": 1,
                 "total": 1
@@ -73,7 +73,7 @@ Retrieve the details of a single template.
 ### Sample Request
 ```
 GET /api/v1/templates/1 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -114,7 +114,7 @@ Create a new template.
 ### Sample Request
 ```
 POST /api/v1/templates HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -161,7 +161,7 @@ Update the details of the given template.
 ### Sample Request
 ```
 PUT /api/v1/templates/3 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -196,7 +196,7 @@ Delete the given template.
 ### Sample Request
 ```
 DELETE /api/v1/templates/3 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```

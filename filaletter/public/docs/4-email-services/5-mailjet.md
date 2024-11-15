@@ -8,7 +8,7 @@ The Mailjet Free plan offers you 200 emails a day, which is enough to cover your
 
 When you first begin, you need to add and configure the "From:" email address, also known as the Sender Address. Extensive documentation for this step is available [here](https://documentation.mailjet.com/hc/en-us/articles/360042133934-How-to-Add-and-Verify-a-Sender-Domain-or-Email-Address).
 
-Finally, to integrate SendPortal with Mailjet, you need to copy the API Key and the API Secret Key, which are generated automatically when your account is created, into your SendPortal provider configuration.
+Finally, to integrate Filaletter with Mailjet, you need to copy the API Key and the API Secret Key, which are generated automatically when your account is created, into your Filaletter provider configuration.
 
 ![Mailjet Configuration](https://sendportal.io/img/docs/providers/mailjet/mailjet-1.png)
 
@@ -16,7 +16,7 @@ Alternatively, if you don't want to use the Master API Key (which grants full ac
 
 ## Tracking
 
-By default, the tracking options for opens and clicks are activated for all new accounts. These settings can be changed on your Account Preferences page, but keep in mind that SendPortal will always override them with the values that you choose in the application when creating a new campaign.
+By default, the tracking options for opens and clicks are activated for all new accounts. These settings can be changed on your Account Preferences page, but keep in mind that Filaletter will always override them with the values that you choose in the application when creating a new campaign.
 
 To enable tracking, you will have to set up Webhooks from the Account Information page.
 

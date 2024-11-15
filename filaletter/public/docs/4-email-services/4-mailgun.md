@@ -28,7 +28,7 @@ To enable tracking, select **Sending** then **Webhooks** from the menu and click
 
 ![Mailgun Step 6](https://sendportal.io/img/docs/providers/mailgun/mailgun-6.png)
 
-The URL depends on your domain but must end with `/api/v1/webhooks/mailgun`. For example, if SendPortal is installed at `https://campaigns.marketing.com`, then each webhook should point to `https://campaigns.marketing.com/api/v1/webhooks/mailgun`.
+The URL depends on your domain but must end with `/api/v1/webhooks/mailgun`. For example, if Filaletter is installed at `https://campaigns.marketing.com`, then each webhook should point to `https://campaigns.marketing.com/api/v1/webhooks/mailgun`.
 
 ![Mailgun Step 7](https://sendportal.io/img/docs/providers/mailgun/mailgun-7.png)
 

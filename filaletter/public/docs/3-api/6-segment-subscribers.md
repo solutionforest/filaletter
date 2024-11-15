@@ -32,7 +32,7 @@ GET /api/v1/tags/{tagId}/subscribers
 
 ```
 GET /api/v1/tags/1/subscribers HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -90,7 +90,7 @@ POST /api/v1/tags/{tagId}/subscribers
 
 ```
 POST /api/v1/tags/1/subscribers HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -161,7 +161,7 @@ PUT /api/v1/tags/{tagId}/subscribers
 
 ```
 PUT /api/v1/tags/1/subscribers HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -230,7 +230,7 @@ DELETE /api/v1/tags/{tagId}/subscribers
 
 ```
 DELETE /api/v1/tags/1/subscribers HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json

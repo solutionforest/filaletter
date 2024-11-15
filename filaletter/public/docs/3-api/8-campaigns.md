@@ -38,7 +38,7 @@ Retrieve a paginated list of all campaigns.
 
 ```
 GET /api/v1/campaigns HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -72,8 +72,8 @@ Accept: application/json
                 }
         ],
         "links": {
-                "first": "https://sendportal.local/api/v1/campaigns?page=1",
-                "last": "https://sendportal.local/api/v1/campaigns?page=1",
+                "first": "https://filaletter.test/api/v1/campaigns?page=1",
+                "last": "https://filaletter.test/api/v1/campaigns?page=1",
                 "prev": null,
                 "next": null
         },
@@ -81,7 +81,7 @@ Accept: application/json
                 "current_page": 1,
                 "from": 1,
                 "last_page": 1,
-                "path": "https://sendportal.local/api/v1/campaigns",
+                "path": "https://filaletter.test/api/v1/campaigns",
                 "per_page": 25,
                 "to": 1,
                 "total": 1
@@ -103,7 +103,7 @@ Get details of a single campaign.
 
 ```
 GET /api/v1/campaigns/1 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 ```
@@ -164,7 +164,7 @@ Create a new campaign.
 
 ```
 POST /api/campaigns HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -241,7 +241,7 @@ Update a campaign.
 
 ```
 PUT /api/v1/campaigns/2 HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json
@@ -296,7 +296,7 @@ Send a campaign.
 
 ```
 POST /api/v1/campaigns/2/send HTTP/1.1
-Host: sendportal.local
+Host: filaletter.test
 Authorization: Bearer 9w2fN7d4F3Banyv7gihYOWJEH6MvtYyZ
 Accept: application/json
 Content-Type: application/json

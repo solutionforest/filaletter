@@ -44,7 +44,7 @@ php artisan vendor:publish --tag="filament-newsletter-views"
 ```
 
 ## Running the queue without Laravel Horizon
-If you don't want to use Horizon to manage you redis queue or you're using the database driver you will have to run a queue worker for each queue that Sendportal uses.
+If you don't want to use Horizon to manage you redis queue or you're using the database driver you will have to run a queue worker for each queue that Filaletter uses.
 
 default: processes default queues
 sendportal-message-dispatch: dispatches messages to the email service
