@@ -6,7 +6,7 @@ To send emails using the Twilio SendGrid provider, you will need a SendGrid acco
 
 Once registered, open the Setup Guide, choose the Web API integration, and select the PHP language option.
 
-![SendGrid Setup Guide](https://sendportal.io/img/docs/providers/sendgrid/sendgrid-1.png)
+![SendGrid Setup Guide](../../images/4-email-service-image/3-sendgrid/sendgrid-1.png)
 
 Generate an API key and copy it to your SendPortal configuration.
 
@@ -18,15 +18,15 @@ Send a test email from SendPortal, and if it works successfully, click Verify in
 
 ## Tracking
 
-![Tracking Settings](https://sendportal.io/img/docs/providers/sendgrid/sendgrid-3.png)
+![Tracking Settings](../../images/4-email-service-image/3-sendgrid/sendgrid-3.png)
 
 Open and click tracking is enabled by default in SendGrid, but if you'd like to check the settings, you'll find them under **Settings > Tracking**.
 
-![Tracking Settings](https://sendportal.io/img/docs/providers/sendgrid/sendgrid-4.png)
+![Tracking Settings](../../images/4-email-service-image/3-sendgrid/sendgrid-4.png)
 
 You can also enable subscription tracking from this page. If enabled, SendGrid will automatically add unsubscribe links to the bottom of every email you send.
 
-![Subscription Tracking](https://sendportal.io/img/docs/providers/sendgrid/sendgrid-5.png)
+![Subscription Tracking](../../images/4-email-service-image/3-sendgrid/sendgrid-5.png)
 
 To enable tracking within Filaletter, you'll need to enable event notifications from **Settings > Mail Settings**.
 

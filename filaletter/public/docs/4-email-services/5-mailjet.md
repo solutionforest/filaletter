@@ -10,7 +10,7 @@ When you first begin, you need to add and configure the "From:" email address, a
 
 Finally, to integrate Filaletter with Mailjet, you need to copy the API Key and the API Secret Key, which are generated automatically when your account is created, into your Filaletter provider configuration.
 
-![Mailjet Configuration](https://sendportal.io/img/docs/providers/mailjet/mailjet-1.png)
+![Mailjet Configuration](../../images/4-email-service-image/5-mailjet/mailjet-1.png)
 
 Alternatively, if you don't want to use the Master API Key (which grants full access to your account), you can set up Sub-account API Keys and limit their scope.
 
@@ -20,7 +20,7 @@ By default, the tracking options for opens and clicks are activated for all new 
 
 To enable tracking, you will have to set up Webhooks from the Account Information page.
 
-![Mailjet Webhooks](https://sendportal.io/img/docs/providers/mailjet/mailjet-2.png)
+![Mailjet Webhooks](../../images/4-email-service-image/5-mailjet/mailjet-2.png)
 
 The URL depends on your domain but must end with `/api/v1/webhooks/mailjet`. For example, if SendPortal is installed at `https://campaigns.marketing.com`, then each webhook should point to `https://campaigns.marketing.com/api/v1/webhooks/mailjet`.
 
