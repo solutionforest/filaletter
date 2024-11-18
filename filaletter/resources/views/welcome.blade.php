@@ -23,6 +23,16 @@
 
     @filamentStyles
     @vite('resources/css/app.css')
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2CB9NHBP5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C2CB9NHBP5');
+    </script>
 </head>
 
 <body class="bg-gray-900">
