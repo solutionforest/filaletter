@@ -460,7 +460,7 @@
     d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
 </svg>
             
-                     Early access · 30% off
+                     Early access · Special Discount
                 </div>
                   <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Choose the right plan for you</p>
                 </div>
