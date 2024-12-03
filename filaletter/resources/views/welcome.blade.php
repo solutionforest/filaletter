@@ -469,8 +469,8 @@
                   <div class="rounded-3xl rounded-t-3xl bg-white p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
                     <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single Website License</h3>
                     <p class="mt-4 flex items-baseline gap-x-2">
-                      <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$99</div>
-                      <span class="text-5xl font-semibold tracking-tight text-gray-900">$69</span>
+                      <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$69</div>
+                      <span class="text-5xl font-semibold tracking-tight text-gray-900">$49</span>
                       <span class="text-base text-gray-500">per site</span>
                     </p>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
@@ -508,8 +508,8 @@
                     </div>
                    \
                     <p class="mt-4 flex items-baseline gap-x-2">
-                        <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$499</div>
-                      <span class="text-5xl font-semibold tracking-tight text-white">$349</span>
+                        <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$399</div>
+                      <span class="text-5xl font-semibold tracking-tight text-white">$299</span>
                       <span class="text-base text-gray-400">one-time</span>
                     </p>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
