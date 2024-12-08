@@ -498,7 +498,7 @@
                         2 activations (local and production).
                       </li>
                     </ul>
-                    <a href="https://checkout.anystack.sh/filasend" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get started today</a>
+                    <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get started today</a>
                   </div>
                   <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
                     <div class="flex items-center justify-between gap-x-4">
@@ -549,7 +549,7 @@
                         1 year of free updates, no subscription
                       </li>
                     </ul>
-                    <a href="https://checkout.anystack.sh/filasend" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get started today</a>
+                    <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get started today</a>
                   </div>
                 </div>
               </div>
@@ -729,7 +729,7 @@
                     <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Simplify your email marketing and boost productivity with our all-inclusive newsletter management package. Obtain a license today!
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="#"
+                        <a href="https://checkout.anystack.sh/filasend" target="_blank"
                             class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get
                             Started</a>
                         {{-- <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span
