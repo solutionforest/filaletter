@@ -33,9 +33,7 @@
     gtag('config', 'G-C2CB9NHBP5');
     </script>
 </head>
-
 <body class="bg-gray-900">
-
     <div class="flex flex-col min-h-screen justify-between bg-gray-900">
         <main>
             <!-- Hero section -->
