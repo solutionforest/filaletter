@@ -5,11 +5,21 @@
             {
                 $items = scandir($directory);
                 $list = '';
-
+                $v1_hidden = [
+                    '8-custom-placeholder.md',
+                    '7-smtp-with-tracking.md'
+                ];
+                
                 foreach ($items as $item) {
                     if ($item === '.' || $item === '..') {
                         continue;
                     }
+
+                    if(request()->query('version') === 'v1.x' && in_array($item, $v1_hidden)) {
+                        continue;
+                    }
+
+
 
                     $path = $directory . '/' . $item;
                     $item = str_replace('.md', '', $item);
