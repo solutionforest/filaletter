@@ -38,6 +38,7 @@
             <select
                 class="min-w-[5rem] block w-full px-3 py-2 text-sm font-medium bg-white border border-slate-600 rounded-md shadow-sm focus:outline-none"
                 id="version-selector">
+                <option value="v3.x" {{ request()->query('version') === 'v3.x' ? 'selected' : '' }}>v3.x</option>
                 <option value="v2.x" {{ request()->query('version') === 'v2.x' ? 'selected' : '' }}>v2.x</option>
                 <option value="v1.x" {{ request()->query('version') === 'v1.x' ? 'selected' : '' }}>v1.x</option>
             </select>
