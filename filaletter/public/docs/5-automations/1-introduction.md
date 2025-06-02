@@ -55,5 +55,3 @@ The Automation feature in this package allows you to create powerful, flexible w
 - Use the preview and description fields to understand how your repeat schedules will work.
 - Combine audience filters and triggers for highly targeted campaigns.
 - You can edit or deactivate automations at any time.
-
-For more details, refer to the in-app tooltips or documentation for each field.
