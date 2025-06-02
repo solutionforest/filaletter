@@ -456,7 +456,7 @@
     d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
 </svg>
             
-                     Early access · Special Discount
+                     Special Discount
                 </div>
                   <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Choose the right plan for you</p>
                 </div>
@@ -465,8 +465,8 @@
                   <div class="rounded-3xl rounded-t-3xl bg-white p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
                     <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single Website License</h3>
                     <p class="mt-4 flex items-baseline gap-x-2">
-                      <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$69</div>
-                      <span class="text-5xl font-semibold tracking-tight text-gray-900">$49</span>
+                      <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$199</div>
+                      <span class="text-5xl font-semibold tracking-tight text-gray-900">$129</span>
                       <span class="text-base text-gray-500">per site</span>
                     </p>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
@@ -504,8 +504,8 @@
                     </div>
                    \
                     <p class="mt-4 flex items-baseline gap-x-2">
-                        <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$399</div>
-                      <span class="text-5xl font-semibold tracking-tight text-white">$299</span>
+                        <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$999</div>
+                      <span class="text-5xl font-semibold tracking-tight text-white">$649</span>
                       <span class="text-base text-gray-400">one-time</span>
                     </p>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
