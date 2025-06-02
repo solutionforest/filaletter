@@ -24,3 +24,29 @@ public function boot(): void
 ## API Tokens
 
 You can create and delete API tokens for each workspace. These API tokens can be used in private API routes. See [API Authentication]([[app_url]]/documentation/3-api/2-authentication) to learn more.
+
+
+## Extending the Current Workspace ID Resolver
+
+The workspace ID resolver determines which workspace is currently active for a user or API request. By default, the resolver checks for an API token in the request, then the session, and finally falls back to a default value from the configuration.
+
+If you need to customize how the current workspace ID is resolved, you can override the resolver logic. For example, you might want to resolve the workspace ID based on a custom request parameter or user attribute.
+
+To set a custom resolver, use the following approach in your service provider:
+
+```php
+Sendportal::setCurrentWorkspaceIdResolver(function () {
+    // Your custom logic to determine the workspace ID
+    // Example: return request()->get('custom_workspace_id') ?? config('filament-newsletter.workspace_id_fallback');
+});
+```
+
+The default resolver logic is as follows:
+
+1. Checks for an API token in the request's bearer token or `api_token` parameter, and resolves the workspace ID using the token if present.
+2. Checks the session for a configured workspace ID session key and returns its value if found.
+3. Falls back to a default workspace ID from the configuration if neither of the above are present.
+
+You can refer to the `setCurrentWorkspaceIdResolver` method in the `FilamentNewsletterServiceProvider` for the default implementation.
+
+This flexibility allows you to adapt workspace resolution to your application's specific requirements.

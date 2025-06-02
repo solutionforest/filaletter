@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Filaletter - Send Newsletters Cost-Effectively via Amazon SES</title>
-    <meta name="description" content="A self hosted newsletter application in Filament that lets you send trackable emails via Amazon Simple Email Service (SES) at cost effectively than other hosted solutions.">
-	<meta name="keywords" content="filament, laravel, newsletter, emails, email newsletters, amazon ses, newsletter amazon ses, blast emails, blast emails amazon ses, send emails amazon ses, amazon simple email service, email reports, email subscribers"/>
-		
+    <meta name="description"
+        content="A self hosted newsletter application in Filament that lets you send trackable emails via Amazon Simple Email Service (SES) at cost effectively than other hosted solutions.">
+    <meta name="keywords"
+        content="filament, laravel, newsletter, emails, email newsletters, amazon ses, newsletter amazon ses, blast emails, blast emails amazon ses, send emails amazon ses, amazon simple email service, email reports, email subscribers" />
+
     <!-- Fonts -->
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -25,13 +27,17 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2CB9NHBP5"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-C2CB9NHBP5');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C2CB9NHBP5');
     </script>
 </head>
+
 <body class="bg-gray-900">
     <div class="flex flex-col min-h-screen justify-between bg-gray-900">
         <main>
@@ -61,7 +67,7 @@
                 </div>
                 <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
                     <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:pt-8">
-                        <x-filasend class="w-12 h-12"/>
+                        <x-filasend class="w-12 h-12" />
                         <h1 class="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
                             Filaletter</h1>
                         <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Effortlessly manage
@@ -71,9 +77,8 @@
                         <div class="mt-10 flex items-center gap-x-6">
                             <a href="{{ route('docs', ['path' => '1-getting-started', 'title' => '1-introduction']) }}"
                                 class="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400">Documents</a>
-                            <a href="#"
-                                class="text-sm font-semibold leading-6 text-white">View on Filament Plugin <span
-                                    aria-hidden="true">→</span></a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-white">View on Filament Plugin
+                                <span aria-hidden="true">→</span></a>
                         </div>
                     </div>
                     <div
@@ -356,6 +361,66 @@
                             <dd class="inline"></dd>
                             Use the editor of your choice to create and edit your email templates.
                         </div>
+
+
+                        <div class="relative pl-9">
+                            <dt class="inline font-semibold text-white">
+                                <svg class="absolute left-1 top-1 h-5 w-5 text-primary-500"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625ZM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H8.25Z"
+                                        clip-rule="evenodd" />
+                                    <path
+                                        d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z" />
+                                </svg>
+
+
+                                Custom Placeholders.
+                            </dt>
+                            <dd class="inline"></dd>
+                            Personalize your emails with custom placeholders for names, dates, and more.
+                        </div>
+                        <div class="relative pl-9">
+                            <dt class="inline font-semibold text-white">
+                                <svg class="absolute left-1 top-1 h-5 w-5 text-primary-500"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 13.5a8.25 8.25 0 0 1 8.25-8.25.75.75 0 0 1 .75.75v6.75H18a.75.75 0 0 1 .75.75 8.25 8.25 0 0 1-16.5 0Z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M12.75 3a.75.75 0 0 1 .75-.75 8.25 8.25 0 0 1 8.25 8.25.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75V3Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+
+
+                                Mail Tracking for SMTP.
+                            </dt>
+                            <dd class="inline"></dd>
+                            Track email opens and clicks when sending via SMTP providers.
+                        </div>
+                        <div class="relative pl-9">
+                            <dt class="inline font-semibold text-white">
+                                <svg class="absolute left-1 top-1 h-5 w-5 text-primary-500"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 0 1 .75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 0 1 9.75 22.5a.75.75 0 0 1-.75-.75v-4.131A15.838 15.838 0 0 1 6.382 15H2.25a.75.75 0 0 1-.75-.75 6.75 6.75 0 0 1 7.815-6.666ZM15 6.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"
+                                        clip-rule="evenodd" />
+                                    <path
+                                        d="M5.26 17.242a.75.75 0 1 0-.897-1.203 5.243 5.243 0 0 0-2.05 5.022.75.75 0 0 0 .625.627 5.243 5.243 0 0 0 5.022-2.051.75.75 0 1 0-1.202-.897 3.744 3.744 0 0 1-3.008 1.51c0-1.23.592-2.323 1.51-3.008Z" />
+                                </svg>
+
+
+
+                                Automations.
+                            </dt>
+                            <dd class="inline"></dd>
+                            Automate your email workflows with triggers and actions for hands-free marketing.
+                        </div>
+
+
                     </dl>
                 </div>
             </div>
@@ -394,306 +459,458 @@
 
             <div class="bg-gray-900 py-24 sm:py-32">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                    <dl
+                        class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
                         <div class="flex flex-col bg-white/5 p-8">
-                          <dt class="text-sm/6 font-semibold text-gray-300">Number of subscribers</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-white">Unlimited</dd>
+                            <dt class="text-sm/6 font-semibold text-gray-300">Number of subscribers</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-white">Unlimited</dd>
                         </div>
                         <div class="flex flex-col bg-white/5 p-8">
-                          <dt class="text-sm/6 font-semibold text-gray-300">Monthly fee</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-white">$0</dd>
+                            <dt class="text-sm/6 font-semibold text-gray-300">Monthly fee</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-white">$0</dd>
                         </div>
                         <div class="flex flex-col bg-white/5 p-8">
-                          <dt class="text-sm/6 font-semibold text-gray-300">You own your data</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-white">Privacy</dd>
+                            <dt class="text-sm/6 font-semibold text-gray-300">You own your data</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-white">Privacy</dd>
                         </div>
                         <div class="flex flex-col bg-white/5 p-8">
-                          <dt class="text-sm/6 font-semibold text-gray-300">Cost per 10,000 emails (AWS SES)</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-white">$1</dd>
+                            <dt class="text-sm/6 font-semibold text-gray-300">Cost per 10,000 emails (AWS SES)</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-white">$1</dd>
                         </div>
-                      </dl>
+                    </dl>
                 </div>
-              </div>
+            </div>
 
-              
-              
+
+
 
             <div class="relative isolate  px-6 py-24 sm:py-32 lg:px-8">
-                <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
-                  <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
+                    aria-hidden="true">
+                    <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+                        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+                    </div>
                 </div>
                 <div class="mx-auto max-w-4xl text-center">
-                  <h2 class="text-base/7 font-semibold text-primary-400">Pricing</h2>
-                  <div type="button" class="bg-white font-medium inline-flex items-center mt-4 px-2 py-1 rounded-md text-orange-700 text-sm whitespace-nowrap">
-                    
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-  class="w-6 h-6 mr-2 duration-500 ease-in-out transition-all cursor-pointer group-hover:rotate-[1deg] group-hover:animage-pulse z-10">
-  <defs>
-    <radialGradient id="emeraldGradient" cx="50%" cy="50%" fx="50%" fy="50%" gradient-units="userSpaceOnUse" r="35%">
-      <stop  offset="50%" stop-color="#f6d95f" />
-      <stop offset="75%" stop-color="#ee7311" />
-      <stop  offset="100%" stop-color="#c35000" />
-    </radialGradient>
-  </defs>
-  <path stroke-linecap="round" stroke-linejoin="round"
-    class="fill-[#ee7311] group-hover:fill-[#ef7a0d] transition-all duration-500 ease-in-out"
-    stroke="url(#emeraldGradient)"
-    d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
-  <path stroke-linecap="round" stroke-linejoin="round"
-    class="fill-[#f6d95f] group-hover:fill-[#f8ffcf] transition-all duration-500 ease-in-out"
-    stroke="url(#emeraldGradient)"
-    d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-  class="absolute animate-ping duration-500 ease-in-out h-6 mr-2 opacity-[0%] scale-[90%] transition-all w-6 z-20">
-  <path stroke-linecap="round" stroke-linejoin="round"
-    class="fill-[#ee7311] group-hover:fill-[#ef7a0d] transition-all duration-500 ease-in-out"
-    stroke="#f6d95f"
-    d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
-  <path stroke-linecap="round" stroke-linejoin="round"
-    class="fill-[#f6d95f] group-hover:fill-[#f8ffcf] transition-all duration-500 ease-in-out"
-    stroke="#f6d95f"
-    d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
-</svg>
-            
-                     Special Discount
-                </div>
-                  <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Choose the right plan for you</p>
-                </div>
-                <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-400 sm:text-xl/8">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
-                <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
-                  <div class="rounded-3xl rounded-t-3xl bg-white p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
-                    <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single Website License</h3>
-                    <p class="mt-4 flex items-baseline gap-x-2">
-                      <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$199</div>
-                      <span class="text-5xl font-semibold tracking-tight text-gray-900">$129</span>
-                      <span class="text-base text-gray-500">per site</span>
-                    </p>
-                    <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                    <h2 class="text-base/7 font-semibold text-primary-400">Pricing</h2>
+                    <div type="button"
+                        class="bg-white font-medium inline-flex items-center mt-4 px-2 py-1 rounded-md text-orange-700 text-sm whitespace-nowrap">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            class="w-6 h-6 mr-2 duration-500 ease-in-out transition-all cursor-pointer group-hover:rotate-[1deg] group-hover:animage-pulse z-10">
+                            <defs>
+                                <radialGradient id="emeraldGradient" cx="50%" cy="50%" fx="50%"
+                                    fy="50%" gradient-units="userSpaceOnUse" r="35%">
+                                    <stop offset="50%" stop-color="#f6d95f" />
+                                    <stop offset="75%" stop-color="#ee7311" />
+                                    <stop offset="100%" stop-color="#c35000" />
+                                </radialGradient>
+                            </defs>
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                class="fill-[#ee7311] group-hover:fill-[#ef7a0d] transition-all duration-500 ease-in-out"
+                                stroke="url(#emeraldGradient)"
+                                d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                class="fill-[#f6d95f] group-hover:fill-[#f8ffcf] transition-all duration-500 ease-in-out"
+                                stroke="url(#emeraldGradient)"
+                                d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
                         </svg>
-                        1 Website
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            class="absolute animate-ping duration-500 ease-in-out h-6 mr-2 opacity-[0%] scale-[90%] transition-all w-6 z-20">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                class="fill-[#ee7311] group-hover:fill-[#ef7a0d] transition-all duration-500 ease-in-out"
+                                stroke="#f6d95f"
+                                d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                class="fill-[#f6d95f] group-hover:fill-[#f8ffcf] transition-all duration-500 ease-in-out"
+                                stroke="#f6d95f"
+                                d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
                         </svg>
-                        No monthly fees
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        Supports Filament V3
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        2 activations (local and production).
-                      </li>
-                    </ul>
-                    <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get started today</a>
-                  </div>
-                  <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
-                    <div class="flex items-center justify-between gap-x-4">
-                        <h3 id="tier-enterprise" class="text-base/7 font-semibold text-primary-400">Unlimited Website License</h3>
-                        <p class="rounded-full bg-primary-500 px-2.5 py-1 text-xs/5 font-semibold text-white">Most popular</p>
+
+                        Special Discount
                     </div>
-                   \
-                    <p class="mt-4 flex items-baseline gap-x-2">
+                    <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Choose
+                        the right plan for you</p>
+                </div>
+                <p
+                    class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-400 sm:text-xl/8">
+                    Choose an affordable plan that’s packed with the best features for engaging your audience, creating
+                    customer loyalty, and driving sales.</p>
+                <div
+                    class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+                    <div
+                        class="rounded-3xl rounded-t-3xl bg-white p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
+                        <h3 id="tier-hobby" class="text-base/7 font-semibold text-primary-400">Single Website License
+                        </h3>
+                        <p class="mt-4 flex items-baseline gap-x-2">
+                        <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$199</div>
+                        <span class="text-5xl font-semibold tracking-tight text-gray-900">$129</span>
+                        <span class="text-base text-gray-500">per site</span>
+                        </p>
+                        <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                1 Website
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                No monthly fees
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Supports Filament V3
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                2 activations (local and production).
+                            </li>
+                        </ul>
+                        <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-hobby"
+                            class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get
+                            started today</a>
+                    </div>
+                    <div class="relative rounded-3xl shadow-2xl ring-1 ring-white/10  bg-gray-900 p-8 ring-1 sm:p-10">
+                        <div class="flex items-center justify-between gap-x-4">
+                            <h3 id="tier-enterprise" class="text-base/7 font-semibold text-primary-400">Unlimited
+                                Website License</h3>
+                            <p class="rounded-full bg-primary-500 px-2.5 py-1 text-xs/5 font-semibold text-white">Most
+                                popular</p>
+                        </div>
+                        \
+                        <p class="mt-4 flex items-baseline gap-x-2">
                         <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$999</div>
-                      <span class="text-5xl font-semibold tracking-tight text-white">$649</span>
-                      <span class="text-base text-gray-400">one-time</span>
-                    </p>
-                    <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        Unlimited Websites
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        No monthly fees
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        Supports Filament V3
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        Unlimited activations
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        Ready-to-Use Package with API Access
-                      </li>
-                      <li class="flex gap-x-3">
-                        <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                        </svg>
-                        1 year of free updates, no subscription
-                      </li>
-                    </ul>
-                    <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get started today</a>
-                  </div>
+                        <span class="text-5xl font-semibold tracking-tight text-white">$649</span>
+                        <span class="text-base text-gray-400">one-time</span>
+                        </p>
+                        <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Unlimited Websites
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                No monthly fees
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Supports Filament V3
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Unlimited activations
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Ready-to-Use Package with API Access
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                1 year of free updates, no subscription
+                            </li>
+                        </ul>
+                        <a href="https://checkout.anystack.sh/filasend" target="_blank"
+                            aria-describedby="tier-enterprise"
+                            class="mt-8 block rounded-md bg-primary-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get
+                            started today</a>
+                    </div>
                 </div>
-              </div>
+            </div>
 
 
-              <div class="bg-gray-900">
+            <div class="bg-gray-900">
                 <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-                  <div class="mx-auto max-w-4xl divide-y divide-white/10">
-                    <h2 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Frequently asked questions</h2>
-                    <dl class="mt-10 space-y-6 divide-y divide-white/10">
-                      <div x-data="{ open: false }" class="pt-6">
-                          <dt>
-                            <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-0" @click="open = !open" aria-expanded="true" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Is this a one-time purchase?</span>
-                              <span class="ml-6 flex h-7 items-center">
-                                <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-            </svg>
-                                <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-            </svg>
-                              </span>
-                            </button>
-                          </dt>
-                          <dd class="mt-2 pr-12" id="faq-0" x-show="open">
-                            <p class="text-base/7 text-gray-300">You get access to updates for a full year. After that year you can choose to renew your license when you want. If you’re satisfied with the current version at that point, you can use it forever.</p>
-                          </dd>
-                        </div>
-                        <div x-data="{ open: false }" class="pt-6">
-                            <dt>
-                                <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-2" @click="open = !open" aria-expanded="true" x-bind:aria-expanded="open.toString()">
-                                    <span class="text-base/7 font-semibold">What are the running costs?</span>
-                                    <span class="ml-6 flex h-7 items-center">
-                                        <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-                                        </svg>
-                                        <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </dt>
-                            <dd class="mt-2 pr-12" id="faq-2" x-show="open">
-                                <p class="text-base/7 text-gray-300">The only costs are those charged by your chosen email service provider. For example:
-                                    <br>- AWS SES: ~$0.10 per 1000 emails
-                                    <br>- Mailgun: Starts at ~$15/month
-                                    <br>- SendGrid: Starts at ~$19.95/month
-                                </p>
-                            </dd>
-                        </div>
+                    <div class="mx-auto max-w-4xl divide-y divide-white/10">
+                        <h2 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Frequently asked
+                            questions</h2>
+                        <dl class="mt-10 space-y-6 divide-y divide-white/10">
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-0" @click="open = !open" aria-expanded="true"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Is this a one-time purchase?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-0" x-show="open">
+                                    <p class="text-base/7 text-gray-300">You get access to updates for a full year.
+                                        After that year you can choose to renew your license when you want. If you’re
+                                        satisfied with the current version at that point, you can use it forever.</p>
+                                </dd>
+                            </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-2" @click="open = !open" aria-expanded="true"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">What are the running costs?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-2" x-show="open">
+                                    <p class="text-base/7 text-gray-300">The only costs are those charged by your
+                                        chosen email service provider. For example:
+                                        <br>- AWS SES: ~$0.10 per 1000 emails
+                                        <br>- Mailgun: Starts at ~$15/month
+                                        <br>- SendGrid: Starts at ~$19.95/month
+                                    </p>
+                                </dd>
+                            </div>
 
-                      <div x-data="{ open: false }" class="pt-6">
-                          <dt>
-                            <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-1" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Can I use a single license on multiple websites?</span>
-                              <span class="ml-6 flex h-7 items-center">
-                                <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-            </svg>
-                                <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-            </svg>
-                              </span>
-                            </button>
-                          </dt>
-                          <dd class="mt-2 pr-12" id="faq-1" x-show="open" style="display: none;">
-                            <p class="text-base/7 text-gray-300">You can if you bought the “Unlimited domains” license. Otherwise your license only allows one production install.</p>
-                          </dd>
-                        </div>
-                      <div x-data="{ open: false }" class="pt-6">
-                          <dt>
-                            <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-2" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Can I white-label or resell the license?</span>
-                              <span class="ml-6 flex h-7 items-center">
-                                <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-            </svg>
-                                <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-            </svg>
-                              </span>
-                            </button>
-                          </dt>
-                          <dd class="mt-2 pr-12" id="faq-2" x-show="open" style="display: none;">
-                            <p class="text-base/7 text-gray-300">If you buy the unlimited domains license, you can integrate into an application of your own. Your primary product cannot be email marketing in this case.</p>
-                          </dd>
-                        </div>
-                        <div x-data="{ open: false }" class="pt-6">
-                            <dt>
-                                <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-3" @click="open = !open" aria-expanded="true" x-bind:aria-expanded="open.toString()">
-                                    <span class="text-base/7 font-semibold">Where is subscriber data stored?</span>
-                                    <span class="ml-6 flex h-7 items-center">
-                                        <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-                                        </svg>
-                                        <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </dt>
-                            <dd class="mt-2 pr-12" id="faq-3" x-show="open">
-                                <p class="text-base/7 text-gray-300">All subscriber data is stored in your own database. We don't store any data on external servers.</p>
-                            </dd>
-                        </div>
-                      <div x-data="{ open: false }" class="pt-6">
-                          <dt>
-                            <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-3" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Is support included?</span>
-                              <span class="ml-6 flex h-7 items-center">
-                                <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-            </svg>
-                                <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-            </svg>
-                              </span>
-                            </button>
-                          </dt>
-                          <dd class="mt-2 pr-12" id="faq-3" x-show="open" style="display: none;">
-                            <p class="text-base/7 text-gray-300">We try to help where we can, but we cannot provide support for every custom installation. </p>
-                          </dd>
-                        </div>
-                      <div x-data="{ open: false }" class="pt-6">
-                          <dt>
-                            <button type="button" x-description="Expand/collapse question button" class="flex w-full items-start justify-between text-left text-white" aria-controls="faq-4" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
-                              <span class="text-base/7 font-semibold">Do you offer refunds?</span>
-                              <span class="ml-6 flex h-7 items-center">
-                                <svg x-description="Icon when question is collapsed." x-state:on="Item expanded" x-state:off="Item collapsed" class="h-6 w-6" :class="{ 'hidden': open }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path>
-            </svg>
-                                <svg x-description="Icon when question is expanded." x-state:on="Item expanded" x-state:off="Item collapsed" class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path>
-            </svg>
-                              </span>
-                            </button>
-                          </dt>
-                          <dd class="mt-2 pr-12" id="faq-4" x-show="open" style="display: none;">
-                            <p class="text-base/7 text-gray-300">We offer a 7 days money-back guarantee</p>
-                          </dd>
-                        </div>
-                     
-                      
-                    </dl>
-                  </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-1" @click="open = !open" aria-expanded="false"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Can I use a single license on multiple
+                                            websites?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-1" x-show="open" style="display: none;">
+                                    <p class="text-base/7 text-gray-300">You can if you bought the “Unlimited domains”
+                                        license. Otherwise your license only allows one production install.</p>
+                                </dd>
+                            </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-2" @click="open = !open" aria-expanded="false"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Can I white-label or resell the
+                                            license?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-2" x-show="open" style="display: none;">
+                                    <p class="text-base/7 text-gray-300">If you buy the unlimited domains license, you
+                                        can integrate into an application of your own. Your primary product cannot be
+                                        email marketing in this case.</p>
+                                </dd>
+                            </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-3" @click="open = !open" aria-expanded="true"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Where is subscriber data stored?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6 hidden" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-3" x-show="open">
+                                    <p class="text-base/7 text-gray-300">All subscriber data is stored in your own
+                                        database. We don't store any data on external servers.</p>
+                                </dd>
+                            </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-3" @click="open = !open" aria-expanded="false"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Is support included?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-3" x-show="open" style="display: none;">
+                                    <p class="text-base/7 text-gray-300">We try to help where we can, but we cannot
+                                        provide support for every custom installation. </p>
+                                </dd>
+                            </div>
+                            <div x-data="{ open: false }" class="pt-6">
+                                <dt>
+                                    <button type="button" x-description="Expand/collapse question button"
+                                        class="flex w-full items-start justify-between text-left text-white"
+                                        aria-controls="faq-4" @click="open = !open" aria-expanded="false"
+                                        x-bind:aria-expanded="open.toString()">
+                                        <span class="text-base/7 font-semibold">Do you offer refunds?</span>
+                                        <span class="ml-6 flex h-7 items-center">
+                                            <svg x-description="Icon when question is collapsed."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="h-6 w-6" :class="{ 'hidden': open }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v12m6-6H6"></path>
+                                            </svg>
+                                            <svg x-description="Icon when question is expanded."
+                                                x-state:on="Item expanded" x-state:off="Item collapsed"
+                                                class="hidden h-6 w-6" :class="{ 'hidden': !(open) }" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true" data-slot="icon">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </dt>
+                                <dd class="mt-2 pr-12" id="faq-4" x-show="open" style="display: none;">
+                                    <p class="text-base/7 text-gray-300">We offer a 7 days money-back guarantee</p>
+                                </dd>
+                            </div>
+
+
+                        </dl>
+                    </div>
                 </div>
-              </div>
+            </div>
 
 
             <!-- CTA section -->
@@ -723,7 +940,8 @@
                 <div class="mx-auto max-w-2xl text-center">
                     <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Enhance your
                         productivity. Start using our app today.</h2>
-                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Simplify your email marketing and boost productivity with our all-inclusive newsletter management package. Obtain a license today!
+                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Simplify your email marketing and
+                        boost productivity with our all-inclusive newsletter management package. Obtain a license today!
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a href="https://checkout.anystack.sh/filasend" target="_blank"
@@ -734,7 +952,7 @@
                     </div>
                 </div>
             </div>
-              
+
         </main>
 
         <!-- Footer -->
@@ -766,12 +984,12 @@
                                     d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
                             </svg>
                         </a> --}}
-                        <a href="https://github.com/solutionforest"
-                            class="text-gray-500 hover:text-gray-400">
-                            <x-logo class="h-6"/>
+                        <a href="https://github.com/solutionforest" class="text-gray-500 hover:text-gray-400">
+                            <x-logo class="h-6" />
                         </a>
                     </div>
-                    <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; Copyright 2016 - {{ date('Y')}}
+                    <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; Copyright 2016 -
+                        {{ date('Y') }}
                         Solution Forest Ltd All Rights Reserved</p>
                 </div>
             </div>
