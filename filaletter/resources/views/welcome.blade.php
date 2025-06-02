@@ -77,7 +77,7 @@
                         <div class="mt-10 flex items-center gap-x-6">
                             <a href="{{ route('docs', ['path' => '1-getting-started', 'title' => '1-introduction']) }}"
                                 class="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400">Documents</a>
-                            <a href="#" class="text-sm font-semibold leading-6 text-white">View on Filament Plugin
+                            <a href="https://filamentphp.com/plugins/solution-forest-filaletter" class="text-sm font-semibold leading-6 text-white">View on Filament Plugin
                                 <span aria-hidden="true">→</span></a>
                         </div>
                     </div>
