@@ -2,6 +2,8 @@
 
 The Automation feature in this package allows you to create powerful, flexible workflows that automatically send emails or perform actions based on specific triggers and conditions. This helps you engage your audience efficiently and consistently, without manual intervention.
 
+![Automation Image](../../images/capscreens/capscreen-15.png)
+
 ## Key Features
 
 - **Multiple Trigger Types:**  
@@ -49,6 +51,8 @@ The Automation feature in this package allows you to create powerful, flexible w
 
 6. **Activate:**  
    Enable the automation to start running according to your settings.
+
+![Automation Image](../../images/capscreens/capscreen-16.png)
 
 ## Tips
 
