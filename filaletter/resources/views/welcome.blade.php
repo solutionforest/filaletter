@@ -548,8 +548,8 @@
                         <div class="flex items-center gap-x-4">
                             <div class="text-5xl font-semibold tracking-tight text-gray-900">$99</div>
                             <div class="flex flex-col">
-                                <span class="text-sm text-gray-500 leading-tight">per site</span>
-                                <span class="text-sm text-gray-500 leading-tight">renews at $79 per year</span>
+                                <span class="text-xs text-gray-500 leading-tight">per site</span>
+                                <span class="text-xs text-gray-500 leading-tight">renews at $79 per year</span>
                             </div>
                         </div>
 
@@ -610,8 +610,8 @@
                         <div class="flex items-center gap-x-4">
                             <div class="text-5xl font-semibold tracking-tight text-white">$299</div>
                             <div class="flex flex-col">
-                                <span class="text-sm text-gray-400 leading-tight">one-time payment</span>
-                                <span class="text-sm text-gray-400 leading-tight">renews at $249 per year</span>
+                                <span class="text-xs text-gray-400 leading-tight">one-time payment</span>
+                                <span class="text-xs text-gray-400 leading-tight">renews at $249 per year</span>
                             </div>
                         </div>
                         </p>
