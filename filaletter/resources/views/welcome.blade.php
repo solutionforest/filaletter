@@ -546,7 +546,7 @@
                         <p class="mt-4 flex items-baseline gap-x-2">
                         <div class="line-through text-zinc-400 dark:text-zinc-300 font-medium text-xl">$199</div>
                         <div class="flex items-center gap-x-4">
-                            <div class="text-5xl font-semibold tracking-tight text-gray-900">$99</div>
+                            <div class="text-5xl font-semibold tracking-tight text-gray-900">$89</div>
                             <div class="flex flex-col">
                                 <span class="text-xs text-gray-500 leading-tight">per site</span>
                                 <span class="text-xs text-gray-500 leading-tight">renews at $79 per year</span>
