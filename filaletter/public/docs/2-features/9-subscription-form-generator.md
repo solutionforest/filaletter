@@ -20,7 +20,7 @@ The Filaletter Livewire Form component allows you to:
 
 ```blade
 <!-- Minimal setup - uses default theme -->
-<livewire:newsletter-form 
+<livewire:newsletter-subscribe-form  
     sendportal_api_token="$your_api_token"
     workspace_id="1"
 />
@@ -29,7 +29,7 @@ The Filaletter Livewire Form component allows you to:
 ### Complete Example with All Parameters
 
 ```blade
-<livewire:newsletter-form 
+<livewire:newsletter-subscribe-form  
     sendportal_api_token="$your_api_token"
     workspace_id="1"
     tag_id="3"
@@ -68,7 +68,7 @@ Clean, horizontal layout with flexbox design:
 ![default](../../images/capscreens/form-js/default.png)
 
 ```blade
-<livewire:newsletter-form theme="default" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="default" :sendportal_api_token="$token" />
 ```
 
 ### 2. Minimal Theme
@@ -77,7 +77,7 @@ Minimal design with bottom-border input:
 ![minimal](../../images/capscreens/form-js/minimal.png)
 
 ```blade
-<livewire:newsletter-form theme="minimal" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="minimal" :sendportal_api_token="$token" />
 ```
 
 ### 3. Rounded Theme
@@ -86,7 +86,7 @@ Gradient background with fully rounded elements:
 ![rounded](../../images/capscreens/form-js/rounded.png)
 
 ```blade
-<livewire:newsletter-form theme="rounded" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="rounded" :sendportal_api_token="$token" />
 ```
 
 ### 4. Dark Theme
@@ -95,7 +95,7 @@ Dark mode design with dark backgrounds:
 ![dark](../../images/capscreens/form-js/dark.png)
 
 ```blade
-<livewire:newsletter-form theme="dark" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="dark" :sendportal_api_token="$token" />
 ```
 
 ### 5. Glass Theme
@@ -104,7 +104,7 @@ Modern glassmorphism effect with backdrop blur:
 ![glass](../../images/capscreens/form-js/glass.png)
 
 ```blade
-<livewire:newsletter-form theme="glass" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="glass" :sendportal_api_token="$token" />
 ```
 
 ### 6. Inline Theme
@@ -113,7 +113,7 @@ Responsive horizontal layout that wraps on smaller screens:
 ![inline](../../images/capscreens/form-js/inline.png)
 
 ```blade
-<livewire:newsletter-form theme="inline" :sendportal_api_token="$token" />
+<livewire:newsletter-subscribe-form  theme="inline" :sendportal_api_token="$token" />
 ```
 
 ## Component Properties
@@ -173,7 +173,7 @@ Responsive horizontal layout that wraps on smaller screens:
 
 3. Use your custom theme:
 ```blade
-<livewire:newsletter-form 
+<livewire:newsletter-subscribe-form  
     :sendportal_api_token="'your-token'"
     theme="custom"
 />
@@ -183,7 +183,7 @@ Responsive horizontal layout that wraps on smaller screens:
 
 ```blade
 <!-- Skip theme system and use view directly -->
-<livewire:newsletter-form 
+<livewire:newsletter-subscribe-form  
     :sendportal_api_token="'your-token'"
     view="newsletter.my-custom-form"
 />
@@ -195,12 +195,12 @@ The component uses a **priority-based system** for determining which view to ren
 
 1. **Component-level `view` property** (highest priority)
    ```blade
-   <livewire:newsletter-form view="custom.my-form" />
+   <livewire:newsletter-subscribe-form  view="custom.my-form" />
    ```
 
 2. **Component-level `theme` property**
    ```blade
-   <livewire:newsletter-form theme="minimal" />
+   <livewire:newsletter-subscribe-form  theme="minimal" />
    ```
 
 3. **Global config `theme` setting**
