@@ -7,7 +7,13 @@
                 $list = '';
                 $v1_hidden = [
                     '8-custom-placeholder.md',
-                    '7-smtp-with-tracking.md'
+                    '7-smtp-with-tracking.md',
+                    '9-subscription-form-generator.md',
+                    '5-automations'
+                ];
+                $v2_hidden = [
+                    '9-subscription-form-generator.md',
+                    '5-automations'
                 ];
                 
                 foreach ($items as $item) {
@@ -16,6 +22,10 @@
                     }
 
                     if(request()->query('version') === 'v1.x' && in_array($item, $v1_hidden)) {
+                        continue;
+                    }
+
+                    if(request()->query('version') === 'v2.x' && in_array($item, $v2_hidden)) {
                         continue;
                     }
 

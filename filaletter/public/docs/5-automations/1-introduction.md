@@ -4,6 +4,9 @@ The Automation feature in this package allows you to create powerful, flexible w
 
 ![Automation Image](../../images/capscreens/capscreen-15.png)
 
+## Minimum Requirement
+**version 3.0.0**
+
 ## Key Features
 
 - **Multiple Trigger Types:**  

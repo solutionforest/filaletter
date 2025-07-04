@@ -9,3 +9,6 @@ There are two types of custom placeholders: **Custom Content** and **User Meta**
 - **User Meta**: Lets you specify a user meta key. The application will retrieve the corresponding value from the subscriber's metadata. To update a subscriber's metadata, navigate to the subscriber's edit page and modify the meta section.
 
 This feature empowers you to create more dynamic and tailored content for your audience.
+
+## Minimum Requirement
+**version 2.0.0**

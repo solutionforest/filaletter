@@ -2,6 +2,9 @@
 
 This guide shows you how to easily embed Filaletter subscription forms anywhere on your website using Livewire components.
 
+## Minimum Requirement
+**version 3.1.0**
+
 ## Overview
 
 The Filaletter Livewire Form component allows you to:
