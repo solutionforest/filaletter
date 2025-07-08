@@ -8,11 +8,13 @@
                 $v1_hidden = [
                     '8-custom-placeholder.md',
                     '7-smtp-with-tracking.md',
-                    '9-subscription-form-generator.md',
+                    '9-subscription-livewire-form.md',
+                    '9-subscription-js-form.md',
                     '5-automations'
                 ];
                 $v2_hidden = [
-                    '9-subscription-form-generator.md',
+                    '9-subscription-livewire-form.md',
+                    '9-subscription-js-form.md',
                     '5-automations'
                 ];
                 
