@@ -18,6 +18,14 @@ For detailed information on using the Sendportal core features within Filament N
 * Laravel 11 or higher
 * Filament Admin Panel 3.2 or higher
 
+### Version Compatibility
+
+| Filament Version | Filament Newsletter Version |
+|------------------|---------------------------|
+| v3.x             | v1.x – v3.x               |
+| v4.x             | v4.x                      |
+
+
 ---
 
 <span style="font-size:smaller;">**Footnote:**  The term "unlimited" refers to the plugin's design. Practical limits may be imposed by your server resources, database capacity, and email sending provider limits.</span>
