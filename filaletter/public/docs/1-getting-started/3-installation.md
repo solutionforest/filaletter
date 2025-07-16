@@ -1,5 +1,15 @@
 # Installation
 
+
+### Version Compatibility
+
+| Filament Version | Filament Newsletter Version |
+|------------------|---------------------------|
+| v3.x             | v1.x – v3.x               |
+| v4.x             | v4.x                      |
+
+
+
 You can install the package via composer:
 
 ```bash
