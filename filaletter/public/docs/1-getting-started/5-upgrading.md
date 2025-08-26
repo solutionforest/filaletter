@@ -93,3 +93,153 @@ If you are using `solution-forest/filament-unlayer`, please also update to `solu
 
 ### 📚 Steps for Upgrading
 Additional steps are not needed for your upgrade.
+
+---
+
+
+
+## Upgrading to v4.1.0 or v3.2.0 (Improved General Campaign Defaults)
+
+
+> **Note:** This guide applies to upgrades from versions:
+> - To **v3.2.0** in the v3.x series.
+> - To **v4.1.0** in the v4.x series.
+
+Previously, there were no general settings for campaigns, requiring users to manually fill in all details for every new campaign.  
+With this update, you can now specify **default settings** for:
+
+- **Default Email Service for Campaigns**
+- **Default "From" Address for Campaigns**
+- **Default Template for Campaigns**
+
+These defaults will be automatically applied when creating new campaigns, streamlining your workflow and reducing repetitive input.
+
+
+
+
+---
+### 📚 Steps for Upgrading
+
+
+
+
+## 1. Publish New Migrations and Translation
+
+Run the following command to publish the latest migrations for the newsletter package:
+
+```sh
+php artisan vendor:publish --tag=filament-newsletter-migrations
+```
+
+Optionally, update your translation file. If you already have a translation file, delete it and republish to ensure you have the latest updates.
+Run the following command to publish the latest translations for the newsletter package:
+
+```sh
+php artisan vendor:publish --tag=filament-newsletter-translations
+```
+
+
+
+---
+
+## 2. Run Migrations
+
+Apply the new migrations to your database:
+
+```sh
+php artisan migrate
+```
+
+---
+
+## 3. Update Configuration
+
+Please be noted that the models for email services and email templates are updated.
+
+If you do not use any related custom models, open `config/filament-newsletter.php` and ensure your models is set as follows:
+
+```php
+'models' => [
+    'template' => Models\NewsletterTemplate::class,
+    'email-service' => Models\EmailService::class,
+],
+```
+
+If you have customized these models, follow `4. Custom Email Service Model Changes` and `5. Custom Email Template Model Changes` to update your customized models.
+
+---
+
+## 4. Custom Email Service Model Changes (optional)
+
+If you use a custom email service model, make sure it:
+
+- Extends `SolutionForest\FilamentNewsletter\Models\EmailService`
+- Adds `"is_default"` to the `$fillable` array
+- Adds `'is_default' => 'boolean'` to the `$casts` array
+- Implements the following boot method to ensure only one default per workspace:
+
+```php
+protected static function boot()
+{
+    parent::boot();
+
+    static::saved(function ($record) {
+        if ($record->is_default) {
+            static::query()
+                ->where('workspace_id', $record->workspace_id)
+                ->where('id', '!=', $record->id)
+                ->update(['is_default' => false]);
+        }
+    });
+
+    static::created(function ($record) {
+        if ($record->is_default) {
+            static::query()
+                ->where('workspace_id', $record->workspace_id)
+                ->where('id', '!=', $record->id)
+                ->update(['is_default' => false]);
+        }
+    });
+}
+```
+
+---
+
+## 5. Custom Email Template Model Changes (optional)
+
+If you use a custom email template model, make sure it:
+
+- Extends `SolutionForest\FilamentNewsletter\Models\NewsletterTemplate`
+- Adds `"is_default"` to the `$fillable` array (if you have fillable array)
+- Adds `'is_default' => 'boolean'` to the `$casts` array
+- Implements the following boot method to ensure only one default per workspace:
+
+```php
+protected static function boot()
+{
+    parent::boot();
+
+    static::creating(function ($model) {
+        $model->workspace_id = empty($model->workspace_id) ? Sendportal::currentWorkspaceId() : (int) $model->workspace_id;
+    });
+
+    static::saved(function ($record) {
+        if ($record->is_default) {
+            static::query()
+                ->where('workspace_id', $record->workspace_id)
+                ->where('id', '!=', $record->id)
+                ->update(['is_default' => false]);
+        }
+    });
+
+    static::created(function ($record) {
+        if ($record->is_default) {
+            static::query()
+                ->where('workspace_id', $record->workspace_id)
+                ->where('id', '!=', $record->id)
+                ->update(['is_default' => false]);
+        }
+    });
+}
+```
+
