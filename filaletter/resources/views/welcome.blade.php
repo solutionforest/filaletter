@@ -70,15 +70,14 @@
                         <x-filasend class="w-12 h-12" />
                         <h1 class="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
                             Filaletter</h1>
-                        <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Effortlessly manage
-                            your newsletters with our Filament Newsletter package, designed for seamless integration
-                            with the Filament Admin Panel. Enjoy flexible and user-friendly email marketing directly
-                            within your admin panel.</p>
+                        <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
+                            Manage your newsletters with ease using Filament Newsletter — a powerful tool that includes everything you need for seamless email marketing and admin management in one place.
+                        </p>
                         <div class="mt-10 flex items-center gap-x-6">
                             <a href="{{ route('docs', ['path' => '1-getting-started', 'title' => '1-introduction']) }}"
                                 class="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-400">Documents</a>
-                            <a href="https://filamentphp.com/plugins/solution-forest-filaletter"
-                                class="text-sm font-semibold leading-6 text-white">View on Filament Plugin
+                            <a href="https://demo.filaletter.com/admin/login"
+                                class="text-sm font-semibold leading-6 text-white">Try the Demo
                                 <span aria-hidden="true">→</span></a>
                         </div>
                     </div>
@@ -591,6 +590,15 @@
                                 </svg>
                                 2 activations (local and production).
                             </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-600" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Standalone or Fully Integratable
+                            </li>
                         </ul>
                         <a href="https://checkout.anystack.sh/filasend" target="_blank" aria-describedby="tier-hobby"
                             class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary-600 ring-1 ring-inset ring-primary-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-primary-400 hover:text-white sm:mt-10">Get
@@ -651,6 +659,15 @@
                                         clip-rule="evenodd" />
                                 </svg>
                                 Unlimited activations
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path fill-rule="evenodd"
+                                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Standalone or Fully Integratable
                             </li>
                             <li class="flex gap-x-3">
                                 <svg class="h-6 w-5 flex-none text-primary-400" viewBox="0 0 20 20"
