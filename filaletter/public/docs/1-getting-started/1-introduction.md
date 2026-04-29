@@ -24,6 +24,7 @@ For detailed information on using the Sendportal core features within Filament N
 |------------------|---------------------------|
 | v3.x             | v1.x – v3.x               |
 | v4.x             | v4.x                      |
+| v5.x             | >= v4.2                      |
 
 
 ---
