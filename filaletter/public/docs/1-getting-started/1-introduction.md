@@ -26,6 +26,7 @@ For detailed information on using the Sendportal core features within Filament N
 | v4.x             | v4.x                      |
 | v5.x             | >= v4.2                      |
 
+- V3 support will deprecate in 30 June 2026.
 
 ---
 
