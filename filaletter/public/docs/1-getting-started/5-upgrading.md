@@ -84,8 +84,8 @@ This release brings full compatibility with **Filament ^4.0** and includes signi
 
 ### 📦 Version Compatibility
 
-- **v4.0+**: Filament ^4.0 + Laravel ^11.0
-- **v3.x**: Filament ^3.0 + Laravel ^10.0 (still maintained)
+- **v4.0+**: Filament ^4.0|^5.0 + Laravel ^11.0
+- **v3.x**: Filament ^3.0 + Laravel ^10.0
 
 ### 🔄 Additional Package Updates
 
